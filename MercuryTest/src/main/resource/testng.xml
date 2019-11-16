@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="MercuryTest-FlightReservation">
+
+<listeners>
+<listener class-name="com.myflight.ExtentReportListener.ExtentReportTestNG" />
+</listeners>
+ <test name="Flight Reservation">
+ <classes>
+ <class name="com.myflight.testcase.RegistrationTest" />
+ <class name= "com.myflight.testcase.LoginTest" />
+ <class name="com.myflight.testcase.MyAccountTest" />
+ </classes>
+ </test>
+</suite>
